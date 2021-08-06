@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: Arial;
+}
+:root {
+    --Bitcoin-Orange:   #F7931A;
+    --Soft-Orange:      #FFE9D5;
+    --Secondary-Blue:   #1A9AF7;
+    --Soft-Blue:        #E7F5FF;
+    --Warm-Black:       #201E1C;
+    --Warm-Black-1:     #282623;
+    --Grey:             #BABABA;
+    --Off-White:        #FAF8F7;
+}
+.fondo{
+height: 80em;
+width: 98em;    
+background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+   
+}
+.batatabit{
+height: 10em;
+width: 50em;
+    margin-left: 28em;
+    margin-top: 10em;
+    display: table-caption   
+}
+.bata{
+height: 7em;    
+    
+}
+.batatabit p{
+font-size: 65px;
+margin-left: 2em;
+color: #F7931A;
+font-family: 'Roboto';
+font-weight: bold;   
+margin-top: -1em;    
+}
+.textofondo{
+height: 30em;
+width: 66em;    
+margin-left: -14em;
+margin-top: 8em;    
+    
+}
+.textofondo p{
+text-align: center;
+color: white;
+display: table-row-group;
+}
+.texto1{
+width: 66em;    
+margin-left: -14em;
+margin-top: 1em;
+}
+.texto1 p{
+text-align: center;
+color: white;
+display: table-row-group;
+font-size: 35px; 
+font-family: 'Raleway';
+    
+    
+}
+.Conoce{
+background-color: white;
+width: 46em;
+margin-left: -3em;
+margin-top: 13em;
+height: 9em;
+box-shadow: 2px 7px 19px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 7px 19px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 7px 19px -5px rgba(0,0,0,0.75);
+border-radius: 10px;    
+}
+.Conoce p{
+font-size: 35px;
+    margin-left: 14px;
+    color: #201E1C;  
+    
+}
+.bitcoin{
+height: 70em;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.bit{
+height: 500px;    
+margin-top: 15em;    
+}
+.bitcoin2{
+width: 100%;
+display: flex;
+justify-content: center;
+    
+}
+.bitcoin2 h3{
+font-size: 70px;
+text-align: center;
+color: #201E1C;    
+}
+.texto2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1em;
+    color: #BABABA;
+}
+
+.creamos{
+    
+background-color: #201E1C;
+    width: 100%;
+    height: 36em;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    
+}
+.cre p{
+    
+    font-size: 68px;
+    color: white;
+    text-align: center;
+    
+}
+.cre{
+height: 20em;
+    margin-top: 15em;
+    display: -webkit-inline-box;
+}
+.texto4{
+background-color: #201E1C;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}    
+.texto4 p{
+font-size: 40px;
+color: #BABABA;   
+}
+.icono1{
+background-color: #201E1C;
+    width: 100%;
+    height: 160em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.caja1{
+height: 30em;
+    width: 50em;
+    background-color: #282623;
+    margin-top: 10em;
+    border-radius: 5%;
+    margin-left: 20em;
+  
+    
+}
+.reloj{
+     width: 70px;
+    margin-top: 3em;
+    margin-left: 3em;   
+    
+}
+.icono1 p{
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;    
+}
+.icono1 h5{
+font-size: 25px;
+    color:#BABABA;
+    margin-top: 1em;
+    margin-left: 30px;
+}
+
+.icono2{
+background-color: #201E1C;
+    width: 100%;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+
+}
+.caja2{
+    height: 30em;
+    width: 50em;
+    background-color: #282623;
+    margin-top: 8em;
+    border-radius: 5%;
+    margin-left: -8em;
+  
+    
+}
+.ojo{
+     width: 70px;
+    margin-top: 3em;
+    margin-left: 3em;   
+    
+}
+.icono2 p{
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;    
+}
+.icono2 h6{
+font-size: 25px;
+    color:#BABABA;
+    margin-top: 1em;
+    margin-left: 30px;
+}
+
+.icono3{
+    width: 100%;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+
+}
+.caja3{
+    height: 30em;
+    width: 50em;
+    background-color: #282623;
+    margin-top: 6em;
+    border-radius: 5%;
+    margin-left: -8em;
+  
+    
+}
+.dolar{
+     width: 70px;
+    margin-top: 3em;
+    margin-left: 3em;   
+    
+}
+.icono3 p{
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;    
+}
+.icono3 h2{
+font-size: 25px;
+    color:#BABABA;
+    margin-top: 1em;
+    margin-left: 30px;
+}
+
+
+
+.icono4{
+    width: 100%;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+
+}
+.caja4{
+    height: 30em;
+    width: 50em;
+    background-color: #282623;
+    margin-top: 6em;
+    border-radius: 5%;
+    margin-left: -8em;
+  
+    
+}
+.cheque{
+     width: 70px;
+    margin-top: 3em;
+    margin-left: 3em;   
+    
+}
+.icono4 p{
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;    
+}
+.icono4 h3{
+font-size: 25px;
+    color:#BABABA;
+    margin-top: 1em;
+    margin-left: 30px;
+}
+.mujer{
+width: 100%;
+    height: 113em;
+    background-color: blue;
+    justify-content: center;
+}
+.mujerr{
+    height: 113em;
+    width: 100%;
+}
+.mujer p{
+    
+font-size: 61px;
+    color: white;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -13em;
+    font-weight: bold;   
+}
+.texto_6 {
+    color: var(--Bitcoin-Orange);
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    width: 48rem;
+    height: 10rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+.tabla {
+    border-collapse: collapse;
+    width: 65rem;
+    height: 60rem;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #BABABA;
+}   
+.Actualizacion {
+    width: 60rem;
+    height: 12rem;
+    background-color: var(--Soft-Orange);
+    margin: auto;
+    margin-top: 7rem;
+    display: flex;
+    border-radius: 2.5rem;
+}
+
+.texto_7 {
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+    padding: 0rem 0rem 0rem 2rem;
+    font-weight: bolder;
+}
+.texto_8 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3.5rem 2rem 0rem 0rem;
+}
+.text {
+    font-size: 5rem;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+td, tr {
+    border: 1rem solid var(--Off-White);
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.Recomendado{
+width: 100%;
+height: 130em;   
+    
+    
+    
+}
+.escoge{
+    width: 100%;
+    height: 50px;
+    margin-top: 87px;
+    display: inline-grid;        
+    
+}
+.escoge p{ 
+font-size: 68px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}   
+
+.plan{ 
+font-size: 68px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}   
+.plan p{ 
+font-size: 39px;
+    color: gray;
+    text-align: center;
+    margin-top: 5em;
+    font-weight: bold;
+} 
+.pago{
+    width: 55em;
+    height: 68em;
+    margin-left: 19em;
+    margin-top: 9em;   
+    -webkit-box-shadow: -1px 2px 31px 2px rgba(0,0,0,0.27);
+-moz-box-shadow: -1px 2px 31px 2px rgba(0,0,0,0.27);
+box-shadow: -1px 2px 31px 2px rgba(0,0,0,0.27);
+    border-radius: 30px;
+    
+}
+.anual{
+     width: 100%;
+    height: 50px;
+    margin-top: 87px;
+    display: inline-grid;   
+    
+    
+}
+.anual p{
+  font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+.dolarr{
+     width: 100%;
+    height: 50px;
+    margin-top: 87px;
+    display: inline-grid;   
+    
+    
+}
+.dolarr p{
+    font-size: 120px;
+    color: black;
+    text-align: center;
+    margin-top: -7px;
+    font-weight: bold;
+    margin-left: -70px;
+
+}
+.ahorras{
+     width: 100%;
+    height: 50px;
+    margin-top: 87px;
+    display: inline-grid;   
+    
+    
+}
+.ahorras p{
+ font-size: 31px;
+    color: gray;
+    text-align: center;
+    margin-top: -7px;
+    font-weight: bold;
+}
+.escoger{
+     width: 70%;
+    height: 80px;
+    margin-top: 87px;
+    display: inline-grid;
+    border-radius: 10px;
+    border-color: blue 5px;
+    border: orange 9px solid;
+margin-left: 70px;
+}
+.escoger p{
+ font-size: 31px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 50em;
+    background-color: var(--bitcoin-o);
+    display: flex;
+    flex-direction: row;
+    background-color: #F7931A;
+}
+.infooter {
+    width: 40em;
+    height: 40em;
+    margin: auto;
+    padding: 5em 0em 0em 5em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.infooter p{
+    font-size: 5em;
+    color: var(--just-white);
+    margin: 0.5em 0em 0em 2em;
+}
+.infooter img{
+    width: 15em;
+    margin: 5.5em 0em 0.5em 4.5em;
+}
+span {
+    font-size: 2.5em;
+    color: var(--just-white);
+    margin: 1.5em 0em 0em 1em;
+}
